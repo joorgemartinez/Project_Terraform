@@ -18,3 +18,9 @@ Uno de los pilares de DevOps y DevSecOps es la *Infrastructure as Code* (IaC).
 
 We need to obtain GCP credentials to interact with the Cloud; this is called, a "*service account*". 
 
+## **Terraform** 
+
+En Terraform puedes escribir en lenguaje Terraform y se puede ejecutar en cualquier Cloud.
+
+La realidad es que hay que hacer un fichero para cada Cloud porque el lenguaje cambia.
+
