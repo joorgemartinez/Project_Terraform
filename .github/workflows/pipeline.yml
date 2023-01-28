@@ -14,7 +14,7 @@
 
 
 
-#Cuanod se haga un push a la branch main
+# Cuando se haga un push a la branch main
 on:
   push:
     branches:
@@ -22,6 +22,8 @@ on:
   pull_request:    
   workflow_dispatch:  
 
+
+# 
 name: Build, Check and Deploy to Cloud Run on GCP
 env:
   PROJECT_ID: ${{ secrets.GCP_PROJECT }}
